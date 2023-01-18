@@ -29,9 +29,9 @@ const Header = () => {
                 <span className="cursor-pointer p-4 hover:text-red-600">
                     <FaSearch size={18}/>
                 </span>
-                    <span className="cursor-pointer p-4 hover:text-red-600">
-                    <FaShoppingCart size={18}/>
-                </span>
+                    <button className="cursor-pointer p-4 hover:text-red-600">
+                        <FaShoppingCart size={18}/>
+                    </button>
                     <span className="cursor-pointer p-4 hover:text-red-600">
                     <CgMenuGridR size={18}/>
                 </span>
