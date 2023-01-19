@@ -4,7 +4,7 @@ import { FcGoogle } from 'react-icons/fc'
 const Login = () => {
 
   return (
-      <div className="w-96 px-12 py-8 z10">
+      <div className="w-96 px-12 py-8 z-10">
         <p className="text-2xl text-center">Welcome back!</p>
         <form className="mt-6 text-sm">
           <p className="mb-2">
