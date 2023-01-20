@@ -9,7 +9,7 @@ const query = groq`
 export default async function Home() {
   const data = await client.fetch(query)
   return (
-      <div className="bg">
+      <div className="w-full h-full">
         <Header/>
       </div>
   )
