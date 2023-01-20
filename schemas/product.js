@@ -38,7 +38,7 @@ export default {
       type: 'string'
     },
     {
-      name: 'featured_products',
+      name: 'featured',
       title: 'Featured',
       type: 'boolean'
     }
