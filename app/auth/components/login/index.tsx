@@ -1,10 +1,15 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import { FcGoogle } from 'react-icons/fc'
 
 const Login = () => {
 
   return (
-      <div className="w-96 px-12 py-8 z-10">
+      <motion.div
+          className="w-96 text-gray-600 bg-white rounded-xl shadow-2xl px-12 py-8 z-10"
+          initial={{ x: 425 }}
+          animate={{ x: 0, transition: { duration: 0.5 } }}
+      >
         <p className="text-2xl text-center">Welcome back!</p>
         <form className="mt-6 text-sm">
           <p className="mb-2">
@@ -43,7 +48,7 @@ const Login = () => {
             <span className="mr-2"><FcGoogle size={20}/></span> Sign In with Google
           </button>
         </form>
-      </div>
+      </motion.div>
   )
 }
 
