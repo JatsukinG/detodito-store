@@ -36,6 +36,11 @@ export default {
       name: 'details',
       title: 'Details',
       type: 'string'
+    },
+    {
+      name: 'featured_products',
+      title: 'Featured',
+      type: 'boolean'
     }
   ]
 }
