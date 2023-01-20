@@ -39,7 +39,6 @@ const Auth = () => {
                     </button>
                   </div>
             }
-
           </div>
         </div>
       </div>
