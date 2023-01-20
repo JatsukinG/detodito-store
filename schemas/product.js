@@ -1,4 +1,5 @@
 export default {
+  // TODO correct the name of data set
   name: 'prodcut',
   title: 'Product',
   type: 'document',
