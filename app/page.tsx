@@ -1,9 +1,10 @@
-import Header from "@/app/components/header";
+import Header from '@/app/components/header'
 
-export default function Home() {
+export default async function Home() {
   return (
-    <div className="bg">
+      <div className="bg">
         <Header/>
-    </div>
+
+      </div>
   )
 }
