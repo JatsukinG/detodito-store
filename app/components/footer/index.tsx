@@ -91,25 +91,25 @@ const Footer = () => {
                         Our Portfolio
                     </h1>
                     <div className="text-sm text-gray-300/50 flex flex-wrap gap-4">
-                        <button className="py-2 px-4 border border-gray-300/50 hover:bg-white hover:text-black">
+                        <button className="py-2 px-4 border border-gray-300 hover:bg-white hover:text-black">
                             T-shirt
                         </button>
-                        <button className="py-2 px-4 border border-gray-300/50 hover:bg-white hover:text-black">
+                        <button className="py-2 px-4 border border-gray-300 hover:bg-white hover:text-black">
                             Casual
                         </button>
-                        <button className="py-2 px-4 border border-gray-300/50 hover:bg-white hover:text-black">
+                        <button className="py-2 px-4 border border-gray-300 hover:bg-white hover:text-black">
                             Shorts
                         </button>
-                        <button className="py-2 px-4 border border-gray-300/50 hover:bg-white hover:text-black">
+                        <button className="py-2 px-4 border border-gray-300 hover:bg-white hover:text-black">
                             Formal
                         </button>
-                        <button className="py-2 px-4 border border-gray-300/50 hover:bg-white hover:text-black">
+                        <button className="py-2 px-4 border border-gray-300 hover:bg-white hover:text-black">
                             Formal-Shirt
                         </button>
-                        <button className="py-2 px-4 border border-gray-300/50 hover:bg-white hover:text-black">
+                        <button className="py-2 px-4 border border-gray-300 hover:bg-white hover:text-black">
                             Shopping
                         </button>
-                        <button className="py-2 px-4 border border-gray-300/50 hover:bg-white hover:text-black">
+                        <button className="py-2 px-4 border border-gray-300 hover:bg-white hover:text-black">
                             Shirts
                         </button>
                     </div>
