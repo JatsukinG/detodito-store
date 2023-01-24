@@ -1,8 +1,7 @@
-import FilterOptions from '@/app/shop/components/filter/FilterOptions'
+import FilterOptions from '@/app/(user)/shop/components/filter/FilterOptions'
 import { client } from '@/lib/sanity.client'
 import { groq } from 'next-sanity'
-import Footer from '@/app/components/footer'
-import ProductCard from '@/app/shop/components/ProductCard'
+import ProductCard from '@/app/(user)/shop/components/ProductCard'
 
 const query = groq`
   *[_type == 'prodcut']
@@ -37,7 +36,6 @@ const ProductListing = async () => {
             }
           </div>
         </div>
-        <Footer />
       </div>
   )
 }
