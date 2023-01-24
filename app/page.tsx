@@ -3,6 +3,7 @@ import { groq } from 'next-sanity'
 import { previewData } from 'next/headers'
 import Image from 'next/image'
 import urlFor from '@/lib/urlFor'
+import Footer from '@/app/components/footer'
 
 const query = groq`
   *[_type == 'prodcut']
@@ -26,8 +27,9 @@ export default async function Home() {
   if (previewData()) {
     return <div>preview mode</div>
   }
+
   return (
-      <div className="bg">
+      <div className="w-full h-full">
         <h1>not preview</h1>
         {
           data.map((product: Product) => (
@@ -40,6 +42,7 @@ export default async function Home() {
               </div>
           ))
         }
+        <Footer />
       </div>
   )
 }
