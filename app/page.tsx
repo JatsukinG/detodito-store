@@ -12,8 +12,10 @@ export default async function Home() {
     return <div>preview mode</div>
   }
   return (
-      <div className="bg">
-        <h1>not preview</h1>
+      <div className="w-full h-full">
+        <Header/>
+        <div>Not preview</div>
+        <Footer/>
       </div>
   )
 }
