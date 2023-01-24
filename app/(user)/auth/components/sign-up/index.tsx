@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import InputField from '@/app/auth/components/InputField'
+import InputField from '@/app/(user)/auth/components/InputField'
 
 const SignUp = () => {
   return (

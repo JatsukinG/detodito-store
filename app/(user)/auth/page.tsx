@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
-import Login from '@/app/auth/components/login'
-import SignUp from '@/app/auth/components/sign-up'
+import Login from '@/app/(user)/auth/components/login'
+import SignUp from '@/app/(user)/auth/components/sign-up'
 
 const Auth = () => {
   const [componentShowed, setComponentShowed] = useState<string>('login')
