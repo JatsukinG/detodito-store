@@ -1,7 +1,6 @@
 import { client } from '@/lib/sanity.client'
 import { groq } from 'next-sanity'
 import { previewData } from 'next/headers'
-import Header from '@/app/components/header'
 import Footer from '@/app/components/footer'
 
 const query = groq`
@@ -16,7 +15,6 @@ export default async function Home() {
 
   return (
       <div className="w-full h-full">
-        <Header />
         <div>Not preview</div>
         <Footer />
       </div>
