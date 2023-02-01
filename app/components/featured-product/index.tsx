@@ -3,8 +3,6 @@ import ProductCard from "@/app/(user)/shop/components/ProductCard";
 
 const FeaturedProduct = ({products}: any) => {
 
-
-
     return (
         <div>
             <h1>
