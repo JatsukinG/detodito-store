@@ -28,7 +28,7 @@ const ProductCard = ({product}: any) => {
         {
           isMouseOver && (
               <div className="absolute top-0 left-0 w-48 h-48 bg-black/30 flex justify-center items-center">
-                <span><FaShoppingCart color="white"/></span>
+                <span className="cursor-pointer"><FaShoppingCart color="white"/></span>
               </div>
             )
         }
