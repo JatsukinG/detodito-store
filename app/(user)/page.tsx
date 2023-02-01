@@ -1,9 +1,10 @@
 import { client } from '@/lib/sanity.client'
 import { groq } from 'next-sanity'
 import { previewData } from 'next/headers'
+import FeaturedProduct from "@/app/components/featured-product";
 
 const query = groq`
-  *[_type == 'prodcut']
+  *[_type == 'prodcut' && featured == true]
 `
 
 export default async function Home() {
@@ -14,7 +15,7 @@ export default async function Home() {
 
   return (
       <div className="w-full h-full">
-        <h1>not preview</h1>
+          <FeaturedProduct products={data}/>
       </div>
   )
 }
